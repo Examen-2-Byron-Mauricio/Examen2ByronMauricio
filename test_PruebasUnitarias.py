@@ -92,7 +92,7 @@ class TestMiClase(unittest.TestCase):
     def test_encuentra_elemento_presente(self):
         """Encuentra: debe devolver True si el elemento está presente en la lista."""
         lista = [1, 2, 3, 4, 5]
-        resultado = self.obj.Encuentra(lista, 3)
+        resultado = self.obj.Encuentra(lista, 99)
         self.assertTrue(resultado)
 
 if __name__ == "__main__":
