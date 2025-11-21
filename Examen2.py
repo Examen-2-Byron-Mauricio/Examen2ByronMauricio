@@ -43,6 +43,13 @@ class MiClase:
                 return False
         return True
 
+    def Encuentra(self, lista, elemento):
+        if not isinstance(lista, list) or not isinstance(elemento, int):
+            return False
+        for elem in lista:
+            if elem == elemento:
+                return True
+        return False
 
 ################################################################################################
 # Ejemplo de ejecución
