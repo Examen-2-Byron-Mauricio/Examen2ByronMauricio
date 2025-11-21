@@ -1,6 +1,7 @@
 import unittest
 from Examen2 import MiClase
 
+#Cambio en el codigo (linea 4) para probar el funcionamiento de los workflows
 # Se realizó un solo archivo para las pruebas unitarias mías y de Mauricio
 class TestMiClase(unittest.TestCase):
 
